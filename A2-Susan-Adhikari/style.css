@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.info{
+    display: flex;
+}
+
+#momoimg{
+    border-radius: 100%;
+    margin-right: 10px;
+
+    
+    box-shadow: 6px 6px 6px rgb(144, 2, 2),-1em 0 .4em rgb(101, 101, 80);
+}
+.info{
+     
+        font-family: "Gabriela", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+    
+
+body{
+    background-color: rgb(195, 195, 201);
+    align-content: center;
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px;
+    background-color: rgb(168, 150, 150);
+    
+
+}
+nav ul{
+    width:100%;
+    display : flex;
+    list-style: none;
+    justify-content:flex-start;
+    font-weight: bold;
+    font-size:medium;
+    
+
+}
+ul> li {
+    height:60px;
+}
+nav a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color:black;
+    text-decoration: none;
+    padding :0 50px;
+}
+ a:hover{
+    background-color: antiquewhite;
+    
+}
+.momo img{
+    
+    padding-left: 35px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    transition: 0.1s ease-in-out;
+    height:250px;
+    width: 350px;
+    
+    
+}
+.momo:hover{
+transform:scale(1.03);
+
+
+}
+.ingredients{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;  
+    background-image: url(images/momo.jpg);  
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+    
+.dough{
+    border: 1px solid red;
+    border-radius: 30px;
+    height:auto;
+    width: 200px;
+margin: 50px;
+padding: 15px;
+background-image: radial-gradient(rgb(30, 30, 254),rgb(66, 91, 66),rgb(199, 199, 180));
+color: white;
+
+
+
+}
+
+
+    
+
+
+    
+    
+    
+
+.filing{
+border: 1px solid red;
+height :auto;
+width: 200px;
+margin: 50px;
+padding: 15px;
+text-align:start;
+border-radius: 30px;
+background-image: radial-gradient(rgb(41, 41, 228),rgb(66, 91, 66),rgb(199, 199, 180));
+color: white
+ 
+
+
+}
+.procedure{
+    border:1px solid red;
+
+    display:flex;
+    justify-content:space-between;
+
+
+    flex-direction:row;
+
+    justify-content:center;
+    align-items: center;  
+    background-image: radial-gradient(rgba(184, 128, 128, 0.253),rgb(225, 225, 243),rgb(159, 197, 159));
+
+    
+}
+ol li{
+    list-style:circle;
+}
+/* .procedure{
+    margin: 50px;
+    padding: 60px; }*/
+    
+
+.preparedough{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 233, 223);
+    
+}
+.preparefill{
+    
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 420px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 233, 223);
+}
+.assemble{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 370px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 233, 223);
+}
+.steam{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 280px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 233, 223);
+}
+.serve{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 233, 223);
+}
+footer{
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+

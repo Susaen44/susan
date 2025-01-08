@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+
+    background-color: black;
+    
+    color: white;
+    
+}
+nav{
+    background-color:rgb(12, 12, 10);
+    color: white;
+    box-shadow: 3px 3px 5px rgb(205, 33, 33);
+    
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 70px;
+    font-size: 20px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 30px;
+}
+nav li:first-child {
+    margin-right:auto;
+    color:rgb(177, 177, 133)
+    
+}
+nav li:first-child a{
+    margin-right:auto;
+    color:rgb(177, 177, 133)
+}
+nav li:first-child :hover{
+    background-color: black;
+}
+nav li:first-child :hover{
+    background-color: rgb(17, 17, 17);
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    right: 0;
+    height:100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter:blur();
+    background-color: rgba(61, 63, 51, 0.416);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+
+    
+}
+.menu{
+    display: none;
+}
+.sidebar li{
+width: 100%;
+}
+@media(max-width: 700px) {
+    
+    .responsive{
+        display: none;
+
+    
+    }
+    .menu{
+        display: flex;
+    }
+    .info{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        
+
+    }
+    footer{
+        padding: 30px;
+    }
+}
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+        
+    }
+    .photo{
+        height: 30px;
+    }
+}
+.photo{
+    
+    
+    padding: 10px;
+    
+    margin: 2px;
+    
+    justify-content: flex-end;
+    
+
+
+    
+}
+h1{
+    color: rgb(96 148 173);
+    text-align: center;
+    padding-top:12px;
+    text-align: center;
+    font-size:xxx-large;
+    
+   
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+}
+.intro{
+    padding: 75px;
+}
+
+.name{
+    font-size: 30px;
+}
+.aim{
+    font-size: 69px;
+}
+p{
+    font-size: 19px;
+}
+#btn1{
+    margin: 10px;
+    width: 100px;
+    
+    border-radius: 10px ;
+    box-shadow:2px 2px  teal;
+    transition-duration: 500ms;
+    transition: all;
+    
+    
+    
+}
+#btn2{
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px ;
+    box-shadow:2px 2px  teal;
+    transition-duration: 500ms;
+    transition: all;
+    
+    
+}
+#btn1:hover{
+    background-color: rgb(108, 108, 193);
+
+}
+#btn2:hover{
+    background-color: rgb(108, 108, 193);
+
+}
+
+.cvlogo{
+    border-radius: 100%;
+    padding: 30px;
+}
+.fblogo{
+    border-radius: 100%;
+    padding: 30px;
+}
+.instalogo{
+    border-radius: 100%;
+    padding: 30px;
+}
+.hire{
+    height: 40px;
+    width: 120px;
+    border-radius: 60px;
+    box-shadow: inset;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+input.hire {
+    background-image: linear-gradient(45deg, #3407c6, transparent);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
+    .hire:hover{
+        transform: rotate(-30deg);
+    }
+
+footer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    background-color: grey;
+        text-align: center;
+    padding: 40px;
+    
+}
+.a{
+    padding: 20px;
+    
+}
+.container{
+    margin:3px;
+    padding: 30px;
+}    
+
+.container .ncpic{
+    width: 200px;
+    padding:38px;   
+    height: 120px;
+    text-align: center;
+    
+    
+    
+}
+.container .chirag{
+    
+    justify-content: baseline;
+    align-self: self-end;
+    padding-top: 250px;
+}
+.chiragpic{
+    width: 200px;
+    height:120px;
+    align-items: center;
+
+}
+.qualification{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center; 
+}
+    
+.kmc{
+    width: 200px;
+    padding:38px;
+    height: 120px;
+    margin-top:250px ;
+    
+}
+
+.form{
+    column-count: 2;
+    column-gap: 6rem;
+    padding: 6px;
+    margin: 6px
+}
+#submit{
+    height:30px;
+    width: 100px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+ #message{
+    border-radius: 6px;
+    background-color: rgb(149, 243, 230);
+    color: black;
+ }  
+
+    
+    
+aside{
+    float: right;
+    padding-right: 20px;
+    
+
+    text-align: center;
+    
+}
+.travel{
+    width:300px;
+    align-items: start;
+}
+.cricket{
+    width: 300px;
+    align-items: start;
+}
+.music{
+    width: 300px;
+    align-items: start;
+
+}
+.hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 9px;
+    padding: 12px;
+}
+.nct{
+    color:white;
+    list-style: none;
+    
+}

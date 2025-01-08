@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                                style="background-color: white; color:white">
+                        </svg></a> </li>
+                <li><a href="about.html">About </a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Profile</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="index.html"> <img src="images/logo.png" height="60px">Susaen </a> </li>
+                <li class="responsive"><a href="about.html">About </a></li>
+                <li class="responsive"><a href="projects.html">Projects</a></li>
+                <li class="responsive"><a href="contact.html">Contact</a></li>
+                <li class="responsive"><a href="index.html">Profile</a></li>
+                <li class="menu" onclick="sidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25"
+                            viewBox="0 -960 960 960" width="26" style="background-color: #4c94d2a9;">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <article>
+            
+        <button  id= "btn1" onclick="changetheme()">White Theme</button>
+        <br>
+        <button id="btn2" onclick="change()">Dark Theme</button>
+
+        <div class="about" >
+            <p class="a">My journey in computer programming started with a fascination for how software can shape and enhance various aspects of our lives. As a student, I've delved into programming languages such as C#, javascript, etc. and gained hands-on experience in areas like developing webpage.<br><br>
+
+                <div class="container" >
+                    <h1>Qualifications</h1>
+                    <div class="qualification" align="center" >
+                        <div class="niagara" align="center">
+                            <img src="images/niagara college.webp" alt="Niagara" height="90" class="ncpic" style="border-radius: 30px;" onmouseover="img()" onmouseout="outimg()">
+                            <p id="ncinfo1">
+                            
+                                
+                            </p>
+                            <p id="ncinfo2"></p>
+                            
+                            <p id="ncinfo3"></p>
+                            <a href="https://www.niagaracollegetoronto.ca/">Diploma in Computer Programming </a>  
+                            <div class="chirag" >
+                                
+                                <img src="images/chirag.jpg" height="120px" class="chiragpic" onmouseover="chiragpic()" onmouseout="outchirag()"">
+                                <p id="p1"> </p>
+                                <p id="p2ch"></p>
+                                <p id="p3ch"></p>
+                                <br>
+                                <a href="https://edusanjal.com/school/chirag-higher-secondary-school/">Secondary school </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="kmc" align="center">
+                            <img src="images/kmc.webp" height="120px" width="200px" onmouseover="kmcimg()" onmouseout="outkmc()">
+                            <p id="p2"></p>
+                            <p id="p3"></p>
+                            <p id="p4"></p>
+                            <p id="p5"></p>
+                            <br><br>
+                            <a href="https://www.facebook.com/kmcbagbazar/videos/583630387172248/">High School</a>
+                        </div>
+                      
+                        
+
+                    </div>
+                    
+                </div>
+                
+                </p>
+        </div>
+        <h1>My Hobbies</h1>
+        <div class="hobbies">
+            <div class="travel">
+            <h3>Travelling is fun:</h3>
+            <img src="images/travelling.webp" alt="travel" height="320" width="300">
+            <p>
+                Traveling is a popular hobby that involves exploring new places, cultures, and experiences. It offers opportunities for adventure, learning, relaxation, and making new connections. Whether it's discovering historical landmarks, trying local cuisine, or embarking on adrenaline-fueled activities, traveling provides a diverse range of experiences that appeal to people worldwide. Additionally, it allows enthusiasts to indulge in hobbies like photography, culinary exploration, and nature appreciation.
+                
+               
+                
+                
+                
+                </p>
+            </div>
+            <div class="cricket">
+                <h3>Playing Cricket: </h3>
+                <img src="images/cricket.webp" height="320px" width="300px">
+                <p>Playing cricket is more than just a hobby for me; it's a passion that ignites my spirit and connects me deeply with the game's rich history and excitement. Every time I step onto the field, whether it's a neatly manicured pitch or a dusty street corner, I feel a rush of adrenaline and anticipation.
+
+                    From the crack of the bat to the swish of the ball through the air, cricket encapsulates moments of pure skill, strategy, and teamwork. Whether I'm batting, bowling, or fielding, each aspect requires its own set of techniques and tactics, keeping me engaged and challenged.
+                    
+                    But beyond the physicality of the game, cricket fosters a sense of camaraderie and belonging. The shared victories, the close defeats, and the countless hours spent practicing together forge bonds that extend beyond the boundary ropes.</p>
+                
+            </div>
+            <div class="music">
+                <h3>Listening to music:</h3>
+                <img src="images/music.webp" height="320px" width="300px">
+                <p>
+                    Listening to music isn't just a hobby for me; it's a form of therapy, a means of expression, and a constant source of inspiration. Whether I'm unwinding after a long day, getting lost in the melodies during a commute, or simply seeking solace in the rhythm, music has an uncanny ability to uplift my spirits and transport me to different realms.
+                    
+                    Each song is a story waiting to be told, a journey through emotions, experiences, and ideas. From the soothing harmonies of classical compositions to the electrifying beats of rock and roll, every genre offers its own unique flavor, catering to my mood and preferences.
+                    
+                    Moreover, music serves as a universal language, bridging gaps and fostering connections across cultures and communities. It has the power to evoke memories, evoke emotions, and create a sense of belonging, making me feel part of something greater than myself.</p>
+            </div>
+            
+
+        </div>
+      
+    </article>
+    <footer>
+        <p>&copy; 2024 Susan portfolio. All rights reserved.</p><br>
+        <div class="fotinfo">
+          <a href="mailto:susan.adhikari2100@nctorontostudents.ca"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"  ><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg><br>Sent an email</a>
+        </div>
+
+    </footer>
+        
+    <script src="sidebar.js"></script>    
+</body>
+</html>
